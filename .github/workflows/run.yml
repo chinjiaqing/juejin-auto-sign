@@ -32,10 +32,10 @@ jobs:
 
       - name: 开始
         env:
-          EMAIL_USER:${{ secrets.EMAIL_USER }}
-          EMAIL_PASS:${{ secrets.EMAIL_PASS }}
-          USER_MOBILE:${{ secrets.USER_MOBILE }}
-          USER_PASSWORD:${{ secrets.USER_PASSWORD }}
-          USER_EMAIL:${{ secrets.USER_EMAIL }}
+          EMAIL_USER: ${{ secrets.EMAIL_USER }}
+          EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
+          USER_MOBILE: ${{ secrets.USER_MOBILE }}
+          USER_PASSWORD: ${{ secrets.USER_PASSWORD }}
+          USER_EMAIL: ${{ secrets.USER_EMAIL }}
         run: |
           node index.js 
