@@ -6,7 +6,9 @@
 
 ## 腾讯云函数收费了，项目已修改为 github actions 执行
 
-在项目 actions->secret 中添加如下几个变量：
+1. Fork 仓库
+
+2. 在仓库 `Settings->Secrets->Actions`中添加如下几个变量：
 
 - EMAIL_USER 发送邮件的邮箱账号
 - EMAIL_PASS 发送邮件的 token
