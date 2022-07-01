@@ -6,7 +6,7 @@ module.exports = {
                 user: process.env.EMAIL_USER, // 你的网易邮箱账号
                 pass: process.env.EMAIL_PASS,  // 你的网易邮箱 smpt 授权码
             },
-            host: 'smtp.163.com',
+            host: 'smtp.qq.com',
             secure: true,
             port: 465,
             secureConnection: true
