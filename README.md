@@ -1,3 +1,7 @@
+# 本项目不再维护，请移步
+[稀土掘金助手，包含每日签到，沾喜气，免费抽奖，每日成长任务等](https://github.com/chinjiaqing/juejin-helper)
+
+
 # 无需复制 cookie,托管掘金自动签到！
 # 再也不用担心cookie会过期了
 
